@@ -2,10 +2,30 @@ import { motion } from "framer-motion";
 import { Counter } from "./Counter";
 
 const stats = [
-  { v: 12, suf: "M+", label: "Visualizaciones generadas", note: "Reels y contenido viral cuidadosamente diseñado." },
-  { v: 340, suf: "%", label: "Crecimiento medio anual", note: "Cuentas de cliente con estrategia Creatê." },
-  { v: 87, suf: "", label: "Marcas defendidas", note: "Desde locales emergentes a marcas consolidadas." },
-  { v: 4.8, suf: "x", label: "Retorno medio en ventas", note: "Atribuibles a campañas de contenido." },
+  {
+    v: 100000,
+    suf: "+",
+    label: "Seguidores orgánicos",
+    note: "Generados en los últimos meses entre nuestros clientes.",
+  },
+  {
+    v: 10000,
+    suf: "h+",
+    label: "Tiempo de visualización",
+    note: "Horas acumuladas en contenido de vídeo de nuestros clientes.",
+  },
+  {
+    v: 300,
+    suf: "%",
+    label: "Aumento de facturación",
+    note: "Clientes que han triplicado su facturación con nuestra estrategia.",
+  },
+  {
+    v: 6.3,
+    suf: "",
+    label: "Engagement medio",
+    note: "Tasa entre 2,50 y 6,30 (lo habitual del mercado es 2 a 3).",
+  },
 ];
 
 export function Metrics() {
@@ -22,13 +42,13 @@ export function Metrics() {
           <div className="max-w-2xl">
             <span className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Resultados</span>
             <h2 className="mt-6 font-display text-5xl leading-[1.05] text-foreground md:text-7xl text-balance">
-              Datos que se sienten como{" "}
-              <span className="italic text-muted-foreground">historias</span>.
+              Transformamos los datos en{" "}
+              <span className="italic text-muted-foreground">beneficios reales</span>.
             </h2>
           </div>
           <p className="max-w-sm text-muted-foreground">
-            No medimos vanidad. Medimos lo que mueve un negocio: alcance cualificado, comunidad
-            activa y ventas reales.
+            Aceleramos el crecimiento de tu marca con análisis de datos. Lanzamos hipótesis, hacemos
+            test A/B y decidimos en base a la analítica.
           </p>
         </motion.div>
 
