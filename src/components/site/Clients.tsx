@@ -12,7 +12,7 @@ const clients = [
   "Jose Raposo",
   "Dehesa Burger's",
   "KGfit Club Deportivo",
-  "Aurea Studio",
+  "Hive Mind",
 ];
 
 export function Clients() {
