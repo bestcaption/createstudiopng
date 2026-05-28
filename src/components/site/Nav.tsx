@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Logo } from "./Logo";
 
 const links = [
   { href: "#vision", label: "Visión" },
   { href: "#resultados", label: "Resultados" },
+  { href: "#packs", label: "Packs" },
+  { href: "#clientes", label: "Clientes" },
   { href: "#casos", label: "Casos" },
-  { href: "#servicios", label: "Servicios" },
 ];
 
 export function Nav() {
@@ -33,8 +35,7 @@ export function Nav() {
         }`}
       >
         <a href="#top" className="flex items-center gap-2">
-          <span className="font-display text-2xl tracking-tight text-foreground">Creatê</span>
-          <span className="h-1.5 w-1.5 rounded-full bg-sand-deep" />
+          <Logo className="h-7 w-auto md:h-8" />
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
