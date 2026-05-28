@@ -1,29 +1,61 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Nav } from "@/components/site/Nav";
+import { Hero } from "@/components/site/Hero";
+import { Marquee } from "@/components/site/Marquee";
+import { Problem } from "@/components/site/Problem";
+import { Vision } from "@/components/site/Vision";
+import { Metrics } from "@/components/site/Metrics";
+import { Cases } from "@/components/site/Cases";
+import { Services } from "@/components/site/Services";
+import { Experience } from "@/components/site/Experience";
+import { CTA } from "@/components/site/CTA";
+import { Footer } from "@/components/site/Footer";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Creatê — Defensores de tu marca" },
+      {
+        name: "description",
+        content:
+          "Estudio creativo que humaniza marcas y convierte redes sociales en crecimiento real. Estrategia, branding y contenido cinematográfico.",
+      },
+      { property: "og:title", content: "Creatê — Defensores de tu marca" },
+      {
+        property: "og:description",
+        content:
+          "No hacemos contenido para verte bonito. Creamos marcas que conectan, venden y permanecen.",
+      },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/" },
+    ],
+    links: [
+      { rel: "canonical", href: "/" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap",
+      },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <main className="bg-background text-foreground">
+      <Nav />
+      <Hero />
+      <Marquee />
+      <Problem />
+      <Vision />
+      <Metrics />
+      <Cases />
+      <Services />
+      <Experience />
+      <CTA />
+      <Footer />
+    </main>
   );
 }
