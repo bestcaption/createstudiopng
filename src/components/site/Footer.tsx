@@ -13,7 +13,7 @@ export function Footer() {
         </div>
         <div className="flex flex-col gap-3 text-sm text-muted-foreground md:items-end">
           <a href="mailto:createstudio.png@gmail.com" className="hover:text-foreground">createstudio.png@gmail.com</a>
-          <a href="https://www.instagram.com/createstudio.png/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">Instagram</a>
+          <a href="https://www.instagram.com/createstudio.png?igsh=d2xzdmg5dnNzbDBq" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">Instagram</a>
           <span className="mt-4 text-xs">© {new Date().getFullYear()} Creatê Studio</span>
         </div>
       </div>
