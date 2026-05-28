@@ -12,8 +12,9 @@ export function Footer() {
           </p>
         </div>
         <div className="flex flex-col gap-3 text-sm text-muted-foreground md:items-end">
-          <a href="mailto:createstudio.png@gmail.com" className="hover:text-foreground">createstudio.png@gmail.com</a>
-          <a href="https://www.instagram.com/createstudio.png?igsh=d2xzdmg5dnNzbDBq" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">Instagram</a>
+          <a href="mailto:hola@create.studio" className="hover:text-foreground">hola@create.studio</a>
+          <a href="#" className="hover:text-foreground">Instagram</a>
+          <a href="#" className="hover:text-foreground">LinkedIn</a>
           <span className="mt-4 text-xs">© {new Date().getFullYear()} Creatê Studio</span>
         </div>
       </div>

@@ -2,24 +2,24 @@ import { motion } from "framer-motion";
 
 const cases = [
   {
-    brand: "Jícales",
-    sector: "Restauración · Osuna",
-    result: "+300% de facturación tras nuestra entrada",
-    quote: "Gracias a estos 2 profesionales, mi empresa ha dado un giro de 360 grados en todos nuestros ámbitos. Compromiso, amabilidad, familiar, trabajadores… y mucho más amor por su trabajo. Si quieres cambiar tu empresa son los indicados para hacerlo, yo lo elegiría una y mil veces más. Muchas gracias Jaime y Manuel.",
+    brand: "Aurea Studio",
+    sector: "Arquitectura & Interiorismo",
+    result: "+820% alcance · 14k seguidores en 90 días",
+    quote: "Nos devolvieron una identidad coherente y empezaron a entrarnos proyectos solo desde Instagram.",
     color: "from-[oklch(0.95_0.025_75)] to-[oklch(0.88_0.04_70)]",
   },
   {
-    brand: "Sôlace",
-    sector: "Sello discográfico · Música electrónica",
-    result: "Identidad visual integral · Portadas, vídeos y concepto de cada lanzamiento",
-    quote: "Llevan todo el apartado visual de mi sello discográfico: portadas, vídeos y desarrollo de concepto de cada lanzamiento. Tengo claro que el éxito y los resultados que obtenemos son en gran parte por su enorme trabajo de conceptualización y desarrollo de marca, que nos permite diferenciarnos muchísimo de otros colectivos del sector. El que quiera algo genérico e insípido que se lo pida a ChatGPT. Para el que da importancia a su marca, imagen y crear una tribu de fieles, Creatê es su lugar.",
+    brand: "Casa Verbena",
+    sector: "Restauración",
+    result: "Lleno completo 7 días/semana · Lista de espera abierta",
+    quote: "Pasamos de pelearnos por una mesa los viernes a tener reservas con tres semanas de antelación.",
     color: "from-[oklch(0.93_0.03_60)] to-[oklch(0.82_0.05_55)]",
   },
   {
-    brand: "Tecnocasa",
-    sector: "Inmobiliaria nacional · Osuna & Arahal",
-    result: "Humanización de marca en oficinas · Interacción real y efectiva con el cliente",
-    quote: "Trabajamos de la mano con sus oficinas de Osuna y Arahal para transformar la relación entre vendedor y comprador: contenido más humano, real y cercano que conecta con las familias antes incluso de pisar la oficina.",
+    brand: "Norte Cosmetics",
+    sector: "Skincare DTC",
+    result: "x4.6 ROAS · Sold out en 9 horas",
+    quote: "Su contenido vende. Punto. Lo notamos en el primer lanzamiento que hicimos juntos.",
     color: "from-[oklch(0.96_0.015_85)] to-[oklch(0.86_0.035_75)]",
   },
 ];

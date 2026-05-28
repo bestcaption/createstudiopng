@@ -72,8 +72,8 @@ export function Contact() {
           <div className="mt-12 space-y-6 border-t border-border pt-8 text-sm">
             <div>
               <div className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Email</div>
-              <a href="mailto:createstudio.png@gmail.com" className="mt-1 block font-display text-2xl text-foreground hover:text-sand-deep break-all">
-                createstudio.png@gmail.com
+              <a href="mailto:hola@create.studio" className="mt-1 block font-display text-2xl text-foreground hover:text-sand-deep">
+                hola@create.studio
               </a>
             </div>
             <div>
