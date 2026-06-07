@@ -2,24 +2,24 @@ import { motion } from "framer-motion";
 
 const cases = [
   {
-    brand: "Aurea Studio",
-    sector: "Arquitectura & Interiorismo",
-    result: "+820% alcance · 14k seguidores en 90 días",
-    quote: "Nos devolvieron una identidad coherente y empezaron a entrarnos proyectos solo desde Instagram.",
+    brand: "Jícales",
+    sector: "Hostelería · Taberna",
+    result: "Lleno completo fines de semana · Lista de espera abierta",
+    quote: "Pasamos de pelearnos por una mesa los viernes a tener reservas con semanas de antelación.",
     color: "from-[oklch(0.95_0.025_75)] to-[oklch(0.88_0.04_70)]",
   },
   {
-    brand: "Casa Verbena",
-    sector: "Restauración",
-    result: "Lleno completo 7 días/semana · Lista de espera abierta",
-    quote: "Pasamos de pelearnos por una mesa los viernes a tener reservas con tres semanas de antelación.",
+    brand: "Tecnocasa",
+    sector: "Inmobiliaria",
+    result: "+650% alcance · Leads cualificados cada semana",
+    quote: "Empezamos a recibir contactos serios directamente desde redes. Otro nivel de presencia.",
     color: "from-[oklch(0.93_0.03_60)] to-[oklch(0.82_0.05_55)]",
   },
   {
-    brand: "Norte Cosmetics",
-    sector: "Skincare DTC",
-    result: "x4.6 ROAS · Sold out en 9 horas",
-    quote: "Su contenido vende. Punto. Lo notamos en el primer lanzamiento que hicimos juntos.",
+    brand: "Dehesa Burger's",
+    sector: "Restauración · Burgers",
+    result: "Comunidad x3 · Aperturas con cola en la puerta",
+    quote: "Su contenido hace que la gente quiera venir. Lo notamos cada vez que publican.",
     color: "from-[oklch(0.96_0.015_85)] to-[oklch(0.86_0.035_75)]",
   },
 ];
