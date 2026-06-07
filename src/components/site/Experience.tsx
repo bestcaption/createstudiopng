@@ -25,8 +25,8 @@ export function Experience() {
 
         <div className="mx-auto mt-20 grid max-w-4xl gap-px overflow-hidden rounded-3xl border border-border bg-border md:grid-cols-3">
           {[
-            { t: "Aliado estratégico", d: "Pensamos con ti. No para ti." },
-            { t: "Cercanía humana", d: "Personas reales, no tickets." },
+            { t: "Visión compartida", d: "Entendemos tu marca como si fuera nuestra." },
+            { t: "Equipo cercano", d: "Trato directo, sin intermediarios ni tickets." },
             { t: "Comunicación constante", d: "Estás dentro del proceso, siempre." },
           ].map((b) => (
             <div key={b.t} className="bg-background p-8 text-center md:p-10">
