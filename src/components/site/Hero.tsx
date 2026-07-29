@@ -28,7 +28,7 @@ export function Hero() {
         >
           <span className="inline-flex items-center gap-2 rounded-full border border-border/70 bg-background/60 px-4 py-1.5 text-xs uppercase tracking-[0.18em] text-muted-foreground backdrop-blur">
             <span className="h-1.5 w-1.5 rounded-full bg-sand-deep" />
-            Agencia creativa · Est. Creatê
+            Especializados en Social Media · Est. Creatê
           </span>
         </motion.div>
 
@@ -61,10 +61,10 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.9 }}
           className="mx-auto mt-10 max-w-2xl text-center text-lg text-muted-foreground text-balance md:text-xl"
         >
-          No hacemos contenido para verte bonito. Creamos marcas que{" "}
-          <span className="text-foreground">conectan</span>,{" "}
-          <span className="text-foreground">venden</span> y{" "}
-          <span className="text-foreground">permanecen</span>.
+          Olvídate del contenido de relleno. Convertimos tus redes sociales en un{" "}
+          <span className="text-foreground">motor de negocio</span> medido,{" "}
+          <span className="text-foreground">escalable</span> y diseñado para{" "}
+          <span className="text-foreground">vender</span>.
         </motion.p>
 
         <motion.div
@@ -77,7 +77,7 @@ export function Hero() {
             href="#contacto"
             className="group inline-flex items-center gap-2 rounded-full bg-foreground px-7 py-3.5 text-sm font-medium text-background transition-all hover:scale-[1.02]"
           >
-            Trabaja con nosotros
+            Defendamos tu marca
             <span className="transition-transform group-hover:translate-x-1">→</span>
           </a>
           <a

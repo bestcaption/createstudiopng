@@ -5,7 +5,6 @@ import { Marquee } from "@/components/site/Marquee";
 import { Problem } from "@/components/site/Problem";
 import { Vision } from "@/components/site/Vision";
 import { Metrics } from "@/components/site/Metrics";
-import { Cases } from "@/components/site/Cases";
 import { Services } from "@/components/site/Services";
 import { Packs } from "@/components/site/Packs";
 import { Clients } from "@/components/site/Clients";
@@ -26,7 +25,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "No hacemos contenido para verte bonito. Creamos marcas que conectan, venden y permanecen.",
+          "Olvídate del contenido de relleno. Convertimos tus redes sociales en un motor de negocio medido, escalable y diseñado para vender.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
@@ -54,7 +53,6 @@ function Index() {
       <Vision />
       <Metrics />
       <Clients />
-      <Cases />
       <Services />
       <Packs />
       <Experience />

@@ -7,12 +7,16 @@ const clients = [
   "The Mountains Hotel",
   "Álvaro Automóviles",
   "Cafetería El Arco",
-  "Sôlace",
+  "sôlace (music label)",
   "Brain On Academy",
   "Jose Raposo",
   "Dehesa Burger's",
   "KGfit Club Deportivo",
-  "Tu marca aquí · Sé nuestro próximo triunfo",
+  "Ceballos Maya",
+  "Ópticas Rodríguez",
+  "VPLP",
+  "Tecnocasa Osuna",
+  "Tecnocasa Arahal",
 ];
 
 export function Clients() {
@@ -60,6 +64,17 @@ export function Clients() {
               </span>
             </motion.div>
           ))}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="col-span-2 flex items-center justify-center bg-foreground p-10 text-center sm:col-span-3 lg:col-span-4"
+          >
+            <span className="font-display text-2xl italic text-sand md:text-3xl">
+              Tu marca aquí · Sé nuestro próximo triunfo
+            </span>
+          </motion.div>
         </div>
 
         <p className="mt-12 max-w-xl text-sm text-background/60">

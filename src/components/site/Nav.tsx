@@ -7,7 +7,6 @@ const links = [
   { href: "#resultados", label: "Resultados" },
   { href: "#packs", label: "Packs" },
   { href: "#clientes", label: "Clientes" },
-  { href: "#casos", label: "Casos" },
 ];
 
 export function Nav() {
@@ -54,7 +53,7 @@ export function Nav() {
           href="#contacto"
           className="group inline-flex items-center gap-2 rounded-full bg-foreground px-4 py-2 text-sm font-medium text-background transition-all hover:gap-3 hover:bg-foreground/90"
         >
-          Trabaja con nosotros
+          Defendamos tu marca
           <span className="transition-transform group-hover:translate-x-0.5">→</span>
         </a>
       </div>

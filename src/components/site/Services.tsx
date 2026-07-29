@@ -1,14 +1,31 @@
 import { motion } from "framer-motion";
 
 const services = [
-  { t: "Gestión de redes sociales", d: "Estrategia, calendario, comunidad y reporting. End-to-end." },
+  {
+    t: "Gestión de redes sociales",
+    d: "Instagram, Facebook, TikTok… Estrategia, calendario, comunidad y reporting. End-to-end.",
+  },
   { t: "Branding", d: "Identidades vivas, no manuales muertos. Marca con propósito." },
-  { t: "Estrategia digital", d: "Posicionamiento, embudo y narrativa. La cabeza antes que la mano." },
-  { t: "Creación de contenido", d: "Foto, video y diseño con dirección de arte propia." },
-  { t: "Reels cinematográficos", d: "Storytelling visual que para el scroll y se queda." },
-  { t: "Fotografía & video", d: "Producción in-house con sensibilidad editorial." },
-  { t: "Diseño visual", d: "Sistemas de diseño consistentes para web, redes y campañas." },
-  { t: "Automatización & growth", d: "Funnels, CRM y datos para escalar sin perder humanidad." },
+  {
+    t: "Estudio Creatê",
+    d: "Posicionamiento, embudo y narrativa (nuestros valores absolutos). Distínguete del resto en el primer momento.",
+  },
+  {
+    t: "Contenido estratégico mensual",
+    d: "Sesión de fotografía profesional, iluminación & vídeo con dirección de arte propia.",
+  },
+  {
+    t: "Contenido de cine en redes sociales",
+    d: "Storytelling visual que para el scroll de tu audiencia.",
+  },
+  {
+    t: "Diseño gráfico",
+    d: "Sistemas de diseño consistentes para tu objetivo. Comunicando exactamente lo que quieres.",
+  },
+  {
+    t: "Automatización & growth",
+    d: "Funnels, CRM y datos para escalar sin perder humanidad.",
+  },
 ];
 
 export function Services() {
@@ -25,12 +42,13 @@ export function Services() {
           <div className="max-w-2xl">
             <span className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Servicios</span>
             <h2 className="mt-6 font-display text-5xl leading-[1.05] text-foreground md:text-7xl text-balance">
-              Un estudio. Todas las piezas.
+              La verdadera experiencia multimodal.
             </h2>
           </div>
           <p className="max-w-sm text-muted-foreground">
-            Trabajamos como una extensión de tu equipo. Sin briefings infinitos, sin proveedores
-            cruzados.
+            Olvídate de piezas separadas y de contratar a mil proveedores diferentes. En Creatê
+            perseguimos tu objetivo ofreciéndote un sistema coherente, integrado y unido, todo en
+            uno.
           </p>
         </motion.div>
 
