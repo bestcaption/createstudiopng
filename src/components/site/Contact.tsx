@@ -65,8 +65,8 @@ export function Contact() {
             Cuéntanos sobre <span className="italic text-muted-foreground">tu marca</span>.
           </h2>
           <p className="mt-8 max-w-md text-muted-foreground">
-            30 minutos. Sin pitch comercial. Una conversación honesta sobre dónde está tu marca y a
-            dónde puede llegar con la estrategia adecuada.
+            Una conversación honesta sobre dónde está tu marca y a dónde puede llegar con la
+            estrategia adecuada.
           </p>
 
           <div className="mt-12 space-y-6 border-t border-border pt-8 text-sm">
