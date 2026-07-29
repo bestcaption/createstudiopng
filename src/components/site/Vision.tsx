@@ -49,8 +49,9 @@ export function Vision() {
             <span className="italic text-sand-deep">nuestras</span>.
           </h2>
           <p className="mt-8 max-w-xl text-lg text-background/70">
-            Creatê es el aliado estratégico que combina creatividad, datos y sensibilidad para
-            transformar tu presencia digital en un activo de negocio.
+            No creamos para rellenar tu feed. Combinamos intuición creativa, criterio visual y
+            análisis de datos para transformar tus redes sociales en la herramienta más rentable de
+            tu empresa.
           </p>
         </motion.div>
 
