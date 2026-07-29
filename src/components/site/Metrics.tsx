@@ -42,13 +42,14 @@ export function Metrics() {
           <div className="max-w-2xl">
             <span className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Resultados</span>
             <h2 className="mt-6 font-display text-5xl leading-[1.05] text-foreground md:text-7xl text-balance">
-              Transformamos los datos en{" "}
-              <span className="italic text-muted-foreground">beneficios reales</span>.
+              Donde otros ven números, nosotros vemos{" "}
+              <span className="italic text-muted-foreground">estrategia y claridad</span>.
             </h2>
           </div>
           <p className="max-w-sm text-muted-foreground">
-            Aceleramos el crecimiento de tu marca con análisis de datos. Lanzamos hipótesis, hacemos
-            test A/B y decidimos en base a la analítica.
+            Aceleramos el crecimiento de tu marca eliminando las suposiciones. Aquí conoces por qué
+            está funcionando todo. O por qué algo no va tan bien. Validamos hipótesis, testeamos cada
+            variable y decidimos basándonos en analítica real para asegurar tu rentabilidad.
           </p>
         </motion.div>
 
