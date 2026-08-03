@@ -35,16 +35,16 @@ export function Nav() {
             : "border-transparent bg-transparent"
         }`}
       >
-        <a href="#top" className="flex items-center gap-2">
-          <Logo className="h-7 w-auto md:h-8" />
+        <a href="#top" className="flex shrink-0 items-center gap-2">
+          <Logo className="h-7 w-auto shrink-0 object-contain md:h-8" />
         </a>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-5 md:flex lg:gap-8">
           {links.map((l) => (
             <a
               key={l.href}
               href={l.href}
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+              className="whitespace-nowrap text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
               {l.label}
             </a>
@@ -53,7 +53,7 @@ export function Nav() {
 
         <a
           href="#contacto"
-          className="group inline-flex items-center gap-2 rounded-full bg-foreground px-4 py-2 text-sm font-medium text-background transition-all hover:gap-3 hover:bg-foreground/90"
+          className="group inline-flex shrink-0 items-center gap-2 whitespace-nowrap rounded-full bg-foreground px-4 py-2 text-xs font-medium text-background transition-all hover:gap-3 hover:bg-foreground/90 sm:text-sm"
         >
           Defendamos tu marca
           <span className="transition-transform group-hover:translate-x-0.5">→</span>
