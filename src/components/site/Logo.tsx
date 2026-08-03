@@ -5,9 +5,8 @@ export function Logo({ className = "", invert = false }: { className?: string; i
     <img
       src={logo}
       alt="Creatê"
-      className={`h-auto w-auto max-w-none object-contain select-none ${invert ? "invert" : ""} ${className}`}
+      className={`select-none ${invert ? "invert" : ""} ${className}`}
       draggable={false}
     />
   );
 }
-

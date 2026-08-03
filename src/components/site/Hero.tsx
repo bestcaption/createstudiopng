@@ -24,14 +24,13 @@ export function Hero() {
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="mx-auto mb-8 flex w-full justify-center"
+          className="mx-auto mb-8 inline-flex w-full justify-center"
         >
-          <span className="inline-flex flex-col items-center justify-center gap-2 rounded-full border border-border/70 bg-background/60 px-4 py-2 text-center text-[11px] font-medium uppercase tracking-[0.12em] text-muted-foreground backdrop-blur sm:inline-flex sm:flex-row sm:items-center sm:text-xs sm:tracking-[0.18em]">
-            <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-sand-deep" />
-            <span className="text-center">Especializados en Social Media · Est. Creatê</span>
+          <span className="inline-flex items-center gap-2 rounded-full border border-border/70 bg-background/60 px-4 py-1.5 text-xs uppercase tracking-[0.18em] text-muted-foreground backdrop-blur">
+            <span className="h-1.5 w-1.5 rounded-full bg-sand-deep" />
+            Especializados en Social Media · Est. Creatê
           </span>
         </motion.div>
-
 
         <h1 className="font-display text-center text-[14vw] leading-[0.95] tracking-tight text-foreground md:text-[9rem]">
           {"Defensores".split("").map((c, i) => (
