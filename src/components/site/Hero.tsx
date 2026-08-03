@@ -26,8 +26,8 @@ export function Hero() {
           transition={{ duration: 0.7 }}
           className="mx-auto mb-8 inline-flex w-full justify-center"
         >
-          <span className="inline-flex items-center gap-2 rounded-full border border-border/70 bg-background/60 px-4 py-1.5 text-xs uppercase tracking-[0.18em] text-muted-foreground backdrop-blur">
-            <span className="h-1.5 w-1.5 rounded-full bg-sand-deep" />
+          <span className="inline-flex max-w-full items-center justify-center gap-2 rounded-full border border-border/70 bg-background/60 px-4 py-1.5 text-center text-[0.65rem] uppercase leading-relaxed tracking-[0.18em] text-muted-foreground backdrop-blur sm:text-xs">
+            <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-sand-deep" />
             Especializados en Social Media · Est. Creatê
           </span>
         </motion.div>
