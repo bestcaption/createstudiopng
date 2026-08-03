@@ -36,7 +36,7 @@ export function Nav() {
         }`}
       >
         <a href="#top" className="flex shrink-0 items-center gap-2">
-          <Logo className="h-7 w-auto shrink-0 object-contain md:h-8" />
+          <Logo className="h-4 w-auto shrink-0 object-contain sm:h-5 md:h-7" />
         </a>
 
         <nav className="hidden items-center gap-5 md:flex lg:gap-8">
