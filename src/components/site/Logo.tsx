@@ -5,7 +5,7 @@ export function Logo({ className = "", invert = false }: { className?: string; i
     <img
       src={logo}
       alt="Creatê"
-      className={`select-none ${invert ? "invert" : ""} ${className}`}
+      className={`block w-auto max-w-full select-none object-contain ${invert ? "invert" : ""} ${className}`}
       draggable={false}
     />
   );
