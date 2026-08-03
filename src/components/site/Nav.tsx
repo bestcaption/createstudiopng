@@ -5,8 +5,10 @@ import { Logo } from "./Logo";
 const links = [
   { href: "#vision", label: "Visión" },
   { href: "#resultados", label: "Resultados" },
-  { href: "#packs", label: "Packs" },
   { href: "#clientes", label: "Clientes" },
+  { href: "#servicios", label: "Servicios" },
+  { href: "#packs", label: "Packs" },
+  { href: "#contacto", label: "Contacto" },
 ];
 
 export function Nav() {
