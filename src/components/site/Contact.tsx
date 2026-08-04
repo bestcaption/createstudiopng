@@ -13,6 +13,8 @@ const schema = z.object({
 
 const budgets = ["Essential · 300€/mes", "Culture · 500€/mes", "Legacy · 700€/mes", "A medida"];
 
+const CONTACT_EMAIL = "createstudio.png@gmail.com";
+
 export function Contact() {
   const [loading, setLoading] = useState(false);
   const [selected, setSelected] = useState<string>("");
@@ -34,12 +36,25 @@ export function Contact() {
       return;
     }
 
+    const { name, email, brand, budget, message } = parsed.data;
+    const subject = `Nuevo contacto · ${name}${brand ? ` · ${brand}` : ""}`;
+    const body = [
+      `Nombre: ${name}`,
+      `Email: ${email}`,
+      brand ? `Marca / Empresa: ${brand}` : null,
+      budget ? `Pack de interés: ${budget}` : null,
+      "",
+      message,
+    ]
+      .filter(Boolean)
+      .join("\n");
+
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 900));
-    setLoading(false);
-    toast.success("Mensaje enviado. Te respondemos en menos de 24h.");
-    form.reset();
-    setSelected("");
+    window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(
+      subject,
+    )}&body=${encodeURIComponent(body)}`;
+    setTimeout(() => setLoading(false), 800);
+    toast.success("Abriendo tu correo con el mensaje listo para enviar.");
   };
 
   return (
