@@ -21,11 +21,13 @@ const stats = [
     note: "Clientes que han triplicado su facturación con nuestra estrategia.",
   },
   {
-    v: 6.3,
+    v: 6.30,
     suf: "",
     label: "Engagement medio",
-    note: "Tasa entre 2,50 y 6,30 (lo habitual del mercado es 2 a 3).",
+    note: "Tasa entre 2,50 y 10,10 (lo habitual del mercado es 2 a 3).",
+    decimals: 2,
   },
+
 ];
 
 export function Metrics() {
