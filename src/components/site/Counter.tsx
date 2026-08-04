@@ -16,7 +16,10 @@ export function Counter({ to, suffix = "", duration = 2, decimals }: { to: numbe
     return () => controls.stop();
   }, [inView, to, duration]);
 
-  const display = to >= 1000 ? Math.round(val).toLocaleString("es-ES") : val.toFixed(to % 1 ? 1 : 0);
+  const display = to >= 1000
+    ? Math.round(val).toLocaleString("es-ES")
+    : val.toFixed(decimals ?? (to % 1 ? 1 : 0));
+
 
   return (
     <span ref={ref}>

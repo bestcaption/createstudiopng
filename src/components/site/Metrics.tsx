@@ -66,8 +66,9 @@ export function Metrics() {
               className="bg-background p-10 md:p-12"
             >
               <div className="font-display text-6xl leading-none tracking-tight text-foreground md:text-7xl">
-                <Counter to={s.v} suffix={s.suf} />
+                <Counter to={s.v} suffix={s.suf} decimals={s.decimals} />
               </div>
+
               <div className="mt-6 text-sm font-medium text-foreground">{s.label}</div>
               <p className="mt-2 text-sm text-muted-foreground">{s.note}</p>
             </motion.div>
