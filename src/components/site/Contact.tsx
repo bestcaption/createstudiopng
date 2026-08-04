@@ -13,6 +13,8 @@ const schema = z.object({
 
 const budgets = ["Essential · 300€/mes", "Culture · 500€/mes", "Legacy · 700€/mes", "A medida"];
 
+const CONTACT_EMAIL = "createstudio.png@gmail.com";
+
 export function Contact() {
   const [loading, setLoading] = useState(false);
   const [selected, setSelected] = useState<string>("");
@@ -34,12 +36,25 @@ export function Contact() {
       return;
     }
 
+    const { name, email, brand, budget, message } = parsed.data;
+    const subject = `Nuevo contacto · ${name}${brand ? ` · ${brand}` : ""}`;
+    const body = [
+      `Nombre: ${name}`,
+      `Email: ${email}`,
+      brand ? `Marca / Empresa: ${brand}` : null,
+      budget ? `Pack de interés: ${budget}` : null,
+      "",
+      message,
+    ]
+      .filter(Boolean)
+      .join("\n");
+
     setLoading(true);
-    await new Promise((r) => setTimeout(r, 900));
-    setLoading(false);
-    toast.success("Mensaje enviado. Te respondemos en menos de 24h.");
-    form.reset();
-    setSelected("");
+    window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(
+      subject,
+    )}&body=${encodeURIComponent(body)}`;
+    setTimeout(() => setLoading(false), 800);
+    toast.success("Abriendo tu correo con el mensaje listo para enviar.");
   };
 
   return (
@@ -142,14 +157,15 @@ export function Contact() {
 
           <div className="mt-10 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
             <p className="text-xs italic text-muted-foreground">
-              Al enviar aceptas que te respondamos al email indicado.
+              Se abrirá tu correo con el mensaje redactado. Lo envías tú, desde tu email de
+              confianza.
             </p>
             <button
               type="submit"
               disabled={loading}
               className="group inline-flex items-center gap-3 rounded-full bg-foreground px-8 py-4 text-sm font-medium text-background transition-all hover:scale-[1.02] disabled:opacity-60"
             >
-              {loading ? "Enviando…" : "Enviar mensaje"}
+              {loading ? "Abriendo correo…" : "Redactar en mi correo"}
               <span className="transition-transform group-hover:translate-x-1">→</span>
             </button>
           </div>
