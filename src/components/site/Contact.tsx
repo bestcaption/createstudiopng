@@ -157,14 +157,15 @@ export function Contact() {
 
           <div className="mt-10 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
             <p className="text-xs italic text-muted-foreground">
-              Al enviar aceptas que te respondamos al email indicado.
+              Se abrirá tu correo con el mensaje redactado. Lo envías tú, desde tu email de
+              confianza.
             </p>
             <button
               type="submit"
               disabled={loading}
               className="group inline-flex items-center gap-3 rounded-full bg-foreground px-8 py-4 text-sm font-medium text-background transition-all hover:scale-[1.02] disabled:opacity-60"
             >
-              {loading ? "Enviando…" : "Enviar mensaje"}
+              {loading ? "Abriendo correo…" : "Redactar en mi correo"}
               <span className="transition-transform group-hover:translate-x-1">→</span>
             </button>
           </div>
