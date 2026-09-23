@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const clients = [
   "Dreambeach Festival",
-  "Jícales Taberna",
+  "Taberna Jicales",
   "Aua Pure Water",
   "The Mountains Hotel",
   "Álvaro Automóviles",
